@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.f5177b15.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f5177b15.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.ec7ca156.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ec7ca156.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.59c330ae.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.59c330ae.js.map",
     "static/css/2.c268c7e3.chunk.css": "/portfolio/static/css/2.c268c7e3.chunk.css",
-    "static/js/2.208bbfec.chunk.js": "/portfolio/static/js/2.208bbfec.chunk.js",
-    "static/js/2.208bbfec.chunk.js.map": "/portfolio/static/js/2.208bbfec.chunk.js.map",
+    "static/js/2.0defcb43.chunk.js": "/portfolio/static/js/2.0defcb43.chunk.js",
+    "static/js/2.0defcb43.chunk.js.map": "/portfolio/static/js/2.0defcb43.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.c268c7e3.chunk.css.map": "/portfolio/static/css/2.c268c7e3.chunk.css.map",
-    "static/js/2.208bbfec.chunk.js.LICENSE.txt": "/portfolio/static/js/2.208bbfec.chunk.js.LICENSE.txt",
+    "static/js/2.0defcb43.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0defcb43.chunk.js.LICENSE.txt",
     "static/media/Montserrat-Bold.079ca05d.ttf": "/portfolio/static/media/Montserrat-Bold.079ca05d.ttf",
     "static/media/Montserrat-SemiBold.fa8441f3.ttf": "/portfolio/static/media/Montserrat-SemiBold.fa8441f3.ttf",
     "static/media/RobotoMono-Regular.418a8f9f.ttf": "/portfolio/static/media/RobotoMono-Regular.418a8f9f.ttf",
@@ -18,7 +18,7 @@
     "static/media/cavinimg.77adeaa3.jpg": "/portfolio/static/media/cavinimg.77adeaa3.jpg",
     "static/media/cointracker.8da9e0cd.jpg": "/portfolio/static/media/cointracker.8da9e0cd.jpg",
     "static/media/greenctg.e51b3bbd.jpg": "/portfolio/static/media/greenctg.e51b3bbd.jpg",
-    "static/media/hero.67448392.png": "/portfolio/static/media/hero.67448392.png",
+    "static/media/hero.c6788ec9.png": "/portfolio/static/media/hero.c6788ec9.png",
     "static/media/map.7d98ba39.png": "/portfolio/static/media/map.7d98ba39.png",
     "static/media/projectImg.771236e1.png": "/portfolio/static/media/projectImg.771236e1.png",
     "static/media/scroll-down-arrow.b013ca45.svg": "/portfolio/static/media/scroll-down-arrow.b013ca45.svg",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.59c330ae.js",
     "static/css/2.c268c7e3.chunk.css",
-    "static/js/2.208bbfec.chunk.js",
-    "static/js/main.f5177b15.chunk.js"
+    "static/js/2.0defcb43.chunk.js",
+    "static/js/main.ec7ca156.chunk.js"
   ]
 }
