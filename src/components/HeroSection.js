@@ -39,7 +39,8 @@ const HeroStyles = styled.div`
     border: 2px solid var(--gray-1);
   }
   .hero__info {
-    margin-top: -18rem;
+    margin-top: -21rem;
+    color: var(--white);
   }
   .hero__social,
   .hero__scrollDown {
@@ -153,17 +154,22 @@ export default function HeroSection() {
       <div className="hero">
         <div className="container">
           <h1 className="hero__heading">
-            <span>Hello, This is</span>
-            <span className="hero__name">Ayan Khan</span>
+            <span>안녕하세요.</span>
+            <span className="hero__name">퍼즐 '한조각 입니다</span>
           </h1>
           <div className="hero__img">
             <img src={HeroImg} alt="" />
           </div>
           <div className="hero__info">
             <PText>
-              I am working as a freelance web designer and developer for 4
-              years. I love to design and make new web experiences for the
-              people.
+              <p>모든 것을 다 갖추고 있다고 거짓말 하지 않겠습니다</p>
+              <p>마음대로 만들지 않겠습니다</p>
+              <p>저희가 가지고 있는 몇 개의 퍼즐 조각을 설명하고</p>
+              <p>고객님의 이야기를 충분히 듣고 공감하겠습니다</p>
+              <p>업체 혼자서 진행한 프로젝트는</p>
+              <p>'분명' 고객님이 생각하신 것과 다를 것입니다</p>
+              <p>함께 작품을 만들어 가시죠?</p>
+              <p>- 퍼즐 한조각 -</p>
             </PText>
             <Button btnText="see my works" btnLink="/projects" />
           </div>
@@ -176,14 +182,14 @@ export default function HeroSection() {
               <ul>
                 <li>
                   <a
-                    href="http://facebook.com/webcifar"
+                    href="https://www.facebook.com/FORA90official?ref=bookmarks"
                     target="_blank"
                     rel="noreferrer"
                   >
                     FB
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href="http://twitter.com/webcifar"
                     target="_blank"
@@ -191,17 +197,17 @@ export default function HeroSection() {
                   >
                     TW
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a
-                    href="http://isntagram.com/web_cifar"
+                    href="https://www.instagram.com/fora90_official/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     IG
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href="http://webcifar.com"
                     target="_blank"
@@ -209,7 +215,7 @@ export default function HeroSection() {
                   >
                     LI
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

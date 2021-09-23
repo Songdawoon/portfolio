@@ -131,7 +131,7 @@ export default function NavMenu() {
             onKeyDown={() => setShowNav(!showNav)}
             tabIndex={0}
           >
-            About
+            퍼즐'한조각
           </NavLink>
         </li>
         <li>

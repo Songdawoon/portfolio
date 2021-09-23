@@ -80,9 +80,13 @@ export default function AboutSection() {
             heading="About Me"
           />
           <PText>
-            I am a freelance website designer and developer from Chittagong,
-            Bangladesh. I create professional websites. I love art and always
-            try to show unique views to the audience through my design.
+            <p>리액트 및 리액트 네이티브를 통한 </p>
+            <p>웹 앱 동시 개발을 주력으로 하고 있습니다</p>
+            <p>카페24 기반 쇼핑몰 커스텀 및 스킨개발 경험도 다수 있습니다.</p>
+            <p>현재 AI 기술을 접목하여 딥러닝을한 AI화가가 </p>
+            <p>과거 유명 화가의 화풍으로 그림을 그려주는 앱과</p>
+            <p>디자이너의 작품과 디자인 상품을</p>
+            <p>연결해주는 플랫폼 사업인 Fora90을 운영중에 있습니다</p>
           </PText>
           <div className="aboutSection__buttons">
             <Button btnText="Works" btnLink="/projects" />
