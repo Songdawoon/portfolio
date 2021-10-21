@@ -82,7 +82,7 @@ export default function ContactForm() {
             />
           </label>
         </div>
-        <button type="submit">Send</button>
+        <button type="submit">상담하기</button>
       </FormStyle>
     </>
   );

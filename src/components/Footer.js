@@ -57,11 +57,13 @@ export default function Footer() {
     <FooterStyle>
       <div className="container">
         <div className="footer__col1">
-          <h1 className="footer__col1__title">Ayan Khan</h1>
+          <h1 className="footer__col1__title">퍼즐 '한조각</h1>
           <PText>
-            A freelance web designer and developer from Chittagong, Bangladesh.
-            I always make websites that have unique designs and also has a good
-            performance rate.
+            <p>리액트,리액트 네이티브 개발 전문</p>
+            <p>웹개발 및 앱개발</p>
+            <p>카페24 기반 쇼핑몰 커스텀 및 스킨개발</p>
+            <p>AI화가앱 'AI Painter' 운영</p>
+            <p>디자인에 옷을 입히다 플랫폼'Fora90' 운영</p>
           </PText>
         </div>
         <div className="footer__col2">
@@ -96,15 +98,15 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+88012312',
-                path: 'tel:+88012312',
+                title: '031-515-1112',
+                path: 'tel:0315151112',
               },
               {
-                title: 'webcifar@gmail.com',
-                path: 'mailto:webcifar@gmail.com',
+                title: 'help@1am.co.kr',
+                path: 'mailto:help@1am.co.kr',
               },
               {
-                title: 'GEC Circle, Chittagong, Bangladesh',
+                title: 'React, ReactNative, Web, Android, IOS',
                 path: 'http://google.com/maps',
               },
             ]}
@@ -116,15 +118,15 @@ export default function Footer() {
             links={[
               {
                 title: 'Facebook',
-                path: 'http://facebook.com',
+                path: 'https://www.facebook.com/FORA90official?ref=bookmarks',
               },
-              {
-                title: 'Twitter',
-                path: 'http://twitter.com',
-              },
+              // {
+              //   title: 'Twitter',
+              //   path: 'http://twitter.com',
+              // },
               {
                 title: 'Instagram',
-                path: 'http://instagram.com',
+                path: 'https://www.instagram.com/fora90_official/',
               },
             ]}
           />
@@ -133,9 +135,9 @@ export default function Footer() {
       <div className="copyright">
         <div className="container">
           <PText>
-            © 2021 - Ayan Khan | Designed By{' '}
-            <a target="_blank" rel="noreferrer" href="http://webcifar.com">
-              web cifar
+            © 2021 - 퍼즐'한조각 | Designed By{' '}
+            <a target="_blank" rel="noreferrer" href="http://onepuzzle.co.kr">
+              퍼즐'한조각
             </a>{' '}
           </PText>
         </div>

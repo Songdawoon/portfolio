@@ -101,10 +101,10 @@ const HeroStyles = styled.div`
       min-height: 750px;
     }
     .hero__heading {
-      font-size: 1.4rem;
+      font-size: 2rem;
       margin-bottom: -3rem;
       .hero__name {
-        font-size: 4.5rem;
+        font-size: 4rem;
       }
     }
     .hero__img {
@@ -155,7 +155,7 @@ export default function HeroSection() {
         <div className="container">
           <h1 className="hero__heading">
             <span>안녕하세요.</span>
-            <span className="hero__name">퍼즐 '한조각 입니다</span>
+            <span className="hero__name">퍼즐'한조각 입니다</span>
           </h1>
           <div className="hero__img">
             <img src={HeroImg} alt="" />
