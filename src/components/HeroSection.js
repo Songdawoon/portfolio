@@ -41,6 +41,7 @@ const HeroStyles = styled.div`
   .hero__info {
     margin-top: -21rem;
     color: var(--white);
+    .button { margin-top:24vh;}
   }
   .hero__social,
   .hero__scrollDown {
@@ -108,10 +109,12 @@ const HeroStyles = styled.div`
       }
     }
     .hero__img {
-      height: 300px;
+      width:100%;
+      height: auto;
     }
     .hero__info {
       margin-top: 3rem;
+      .button{margin-top:0vh;}
     }
     .hero__social {
       left: 0px;
@@ -161,17 +164,7 @@ export default function HeroSection() {
             <img src={HeroImg} alt="" />
           </div>
           <div className="hero__info">
-            <PText>
-              <p>모든 것을 다 갖추고 있다고 거짓말 하지 않겠습니다</p>
-              <p>마음대로 만들지 않겠습니다</p>
-              <p>저희가 가지고 있는 몇 개의 퍼즐 조각을 설명하고</p>
-              <p>고객님의 이야기를 충분히 듣고 공감하겠습니다</p>
-              <p>업체 혼자서 진행한 프로젝트는</p>
-              <p>'분명' 고객님이 생각하신 것과 다를 것입니다</p>
-              <p>함께 작품을 만들어 가시죠?</p>
-              <p>- 퍼즐 한조각 -</p>
-            </PText>
-            <Button btnText="see my works" btnLink="/projects" />
+            <Button className="button" btnText="see my works" btnLink="/projects" />
           </div>
           <div className="hero__social">
             <div className="hero__social__indicator">
