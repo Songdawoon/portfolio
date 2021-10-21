@@ -6,7 +6,7 @@ import SectionTitle from './SectionTitle';
 import AboutImg from '../assets/images/about-sec-img.png';
 
 const AboutSectionStyles = styled.div`
-  padding: 10rem 0;
+  padding: 0rem 0 10rem 0;
   .container {
     display: flex;
     align-items: center;
